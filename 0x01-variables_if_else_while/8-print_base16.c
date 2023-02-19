@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int x;
+	char x;
 
-	for (x = 0; x < 25; x++)
+	for (x = 'a'; x <= 'z' ; x++)
 		putchar("%x", x);
 	putchar('\n');
 	return (0);
